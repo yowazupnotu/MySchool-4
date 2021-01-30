@@ -1,0 +1,119 @@
+body
+{
+    text-align: center;
+}
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+
+
+#videos iframe
+{
+    width: 80%;
+}
+
+
+input
+{
+    background: grey;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+    text-align: center;
+}
+img{
+    width: 550px;
+    height: 500px;
+}
+.travel_mainDiv hr{
+    width: 98%;
+}
+.travel_mainDiv h5{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+.travel_mainDiv p{
+    margin-left: 20px;
+    text-align: left;
+}
+#acheivments{
+    text-align: left;
+}
+#picprin{
+    width: 500px;
+    height: 500px;
+}
+#acheivments{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+}
+.movie_head span{
+    color: #ff7700;
+}
+#acheivments ul{
+    text-align: left;
+}
+#watsnew{
+    text-align: center;
+}
+#watsnew ul{
+    text-align: center;
+}
+#acheivementslist{
+    margin-top: 30px;
+}
